@@ -103,36 +103,32 @@ body {
   font-weight: 900;
 }
 .four-images-div {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 0 2.4rem;
+  gap: 2.4rem;
 }
-.first-two-img-div {
-  display: flex;
-  gap: 2.5rem;
-  margin-bottom: 1.5rem;
-}
-.third-and-forth-img-div {
-  display: flex;
-  gap: 2.5rem;
-}
+
 .girl-chatting {
-  width: 40%;
+  width: 100%;
   border-radius: 10%;
 }
 .old-women {
-  width: 40%;
+  width: 100%;
   border-radius: 10%;
 }
 .man-on-meeting {
-  width: 40%;
+  width: 100%;
   border-radius: 10%;
 }
 .boy-texting {
-  width: 40%;
+  width: 100%;
   border-radius: 10%;
 }
 .bottom-div {
   margin-top: 5.6rem;
+  padding: 0 2.4rem;
 }
 .bottom-div-secondary-parag {
   color: #4d96a9;
@@ -195,6 +191,7 @@ body {
   line-height: 26px; /* 162.5% */
 }
 .footer-class {
+  padding: 0 2.4rem;
   background-image: url(./assets/mobile/image-footer.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
