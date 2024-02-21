@@ -8,8 +8,8 @@ html {
 }
 body {
   font-family: "Red Hat Display", sans-serif;
-  padding: 4.8rem 2.4rem 8.8rem 2.4rem;
-  /* max-width: 100%; */
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 .header-img {
@@ -19,9 +19,12 @@ body {
   margin-bottom: 5.4rem;
 }
 .top-main-img {
-  width: 130%;
+  width: 115%;
   margin-left: -4rem;
   margin-bottom: 4.8rem;
+}
+.top-main-div {
+  padding: 0 2.4rem 0 2.4rem;
 }
 .h1-class {
   color: #28283d;
@@ -41,6 +44,8 @@ body {
   font-weight: 500;
   line-height: 26px; /* 162.5% */
   margin-bottom: 3.2rem;
+  margin-right: auto;
+  margin-left: auto;
 }
 .middle-buttons-div {
   display: flex;
