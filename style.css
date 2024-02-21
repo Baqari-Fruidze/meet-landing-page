@@ -207,6 +207,7 @@ body {
   inset: 0;
   background: rgb(70, 135, 152);
   z-index: -1;
+  mix-blend-mode: overlay;
 }
 .footer-h2 {
   padding-top: 7.5rem;
