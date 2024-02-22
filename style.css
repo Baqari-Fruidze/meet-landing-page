@@ -6,6 +6,10 @@
 html {
   font-size: 62.5%;
 }
+/* .bottom-button:hover {
+  border-radius: 29px;
+  background: #b18bdd;
+} */
 body {
   font-family: "Red Hat Display", sans-serif;
   width: 100vw;
@@ -359,7 +363,12 @@ body {
   }
   .bottom-button {
     width: 50%;
+    background: #855fb1;
   }
+  /* .bottom-button:hover {
+    border-radius: 29px;
+    background: #b18bdd;
+  } */
 }
 @media (min-width: 90em) {
   .top-main-img-tablet {
@@ -402,8 +411,9 @@ body {
     background: #b18bdd;
   }
   .four-images-div {
-    margin-left: 10.6rem;
-    margin-right: 13.8rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .bottom-div {
     margin-bottom: 8rem;
@@ -429,6 +439,7 @@ body {
   .bottom-button {
     width: 10%;
     margin: 0;
+    background: #855fb1;
   }
   .footer-parag-class {
     width: 31ch;
@@ -438,5 +449,9 @@ body {
   }
   .footer-h2 {
     margin: 0;
+  }
+  .bottom-button:hover {
+    border-radius: 29px;
+    background: #b18bdd;
   }
 }
