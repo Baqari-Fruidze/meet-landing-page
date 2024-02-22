@@ -199,7 +199,7 @@ body {
   line-height: 26px; /* 162.5% */
 }
 .footer-class {
-  padding: 0 2.4rem;
+  padding: 7.5rem 2.4rem;
   background-image: url(./assets/mobile/image-footer.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -218,7 +218,6 @@ body {
   /* mix-blend-mode: multiply; */
 }
 .footer-h2 {
-  padding-top: 7.5rem;
   color: #fafafa;
   text-align: center;
   font-size: 32px;
@@ -339,6 +338,7 @@ body {
   }
   .footer-class {
     background-image: url(./assets/tablet/image-footer.jpg);
+    padding-top: 8.5rem;
   }
   .footer-h2 {
     color: #fafafa;
@@ -346,7 +346,6 @@ body {
     font-size: 40px;
     font-weight: 900;
     line-height: 44px; /* 110% */
-    padding-top: 9rem;
     width: 12ch;
     margin-left: auto;
     margin-right: auto;
@@ -360,5 +359,84 @@ body {
   }
   .bottom-button {
     width: 50%;
+  }
+}
+@media (min-width: 90em) {
+  .top-main-img-tablet {
+    display: none;
+  }
+  body {
+    background-image: url(./assets/desktop/image-hero-left.png),
+      url(./assets/desktop/image-hero-right.png);
+    background-position: top 15rem left, top 15rem right;
+    background-repeat: no-repeat, no-repeat;
+    padding-top: 8rem;
+  }
+  .top-main-div {
+    margin-bottom: 11.8rem;
+  }
+  .h1-class {
+    color: #28283d;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 64px; /* 100% */
+    margin-bottom: 3.2rem;
+  }
+  .top-div-parag {
+    color: #87879d;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px; /* 144.444% */
+    width: 45ch;
+  }
+  .button-in-middle {
+    width: 17%;
+    border-radius: 29px;
+    background: #71c0d4;
+  }
+  .second-button-inthe-middle {
+    width: 10%;
+    border-radius: 29px;
+    background: #b18bdd;
+  }
+  .four-images-div {
+    margin-left: 10.6rem;
+    margin-right: 13.8rem;
+  }
+  .bottom-div {
+    margin-bottom: 8rem;
+  }
+  .bottom-divs-h2 {
+    width: 18ch;
+  }
+  .bottom-div-main-parag {
+    color: #87879d;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px; /* 144.444% */
+  }
+  .footer-class {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(./assets/desktop/image-footer.jpg);
+    padding: 10rem 0 10rem 0;
+  }
+  .bottom-button {
+    width: 10%;
+    margin: 0;
+  }
+  .footer-parag-class {
+    width: 31ch;
+  }
+  .footer-parag-class {
+    margin: 0;
+  }
+  .footer-h2 {
+    margin: 0;
   }
 }
